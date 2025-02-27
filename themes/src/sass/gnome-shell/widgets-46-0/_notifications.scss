@@ -16,7 +16,7 @@ $notification_banner_width: 34em;
 	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
 	border-radius: $menu_radius;
 
-	@if $float == 'true' {
+	@if $float == 'true' and $bordered {
 		border: 2px solid $primary;
 	}
 

@@ -16,7 +16,7 @@ $notification_banner_width: 34em;
 	border: none;
 	box-shadow: 0 3px 6px rgba(black, 0.25);
 
-	@if $float == 'true' {
+	@if $float == 'true' and $bordered {
 		border: 2px solid $primary;
 	}
 

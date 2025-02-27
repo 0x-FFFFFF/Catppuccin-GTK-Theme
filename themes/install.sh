@@ -344,6 +344,11 @@ while [[ $# -gt 0 ]]; do
 				echo -e "Install Floating Gnome-Shell Panel version! ..."
 				shift
 				;;
+			border)
+				border="true"
+				echo -e "Install Bordered Dock and Panel version! ..."
+				shift
+				;;
 			outline)
 				outline="true"
 				echo -e "Install 2px windows outline version! ..."
@@ -443,6 +448,10 @@ float_panel() {
 	sed -i "/\$float:/s/false/true/" "${SRC_DIR}/sass/_tweaks-temp.scss"
 }
 
+bordered() {
+	sed -i "/\$bordered:/s/false/true/" "${SRC_DIR}/sass/_tweaks-temp.scss"
+}
+
 outline_style() {
 	sed -i "/\$outline:/s/false/true/" "${SRC_DIR}/sass/_tweaks-temp.scss"
 }
@@ -517,6 +526,10 @@ theme_tweaks() {
 
 	if [[ "$float" = "true" ]]; then
 		float_panel
+	fi
+
+	if [[ "$border" = "true" ]]; then
+		bordered
 	fi
 
 	if [[ "$outline" = "true" ]]; then

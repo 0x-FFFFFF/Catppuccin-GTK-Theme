@@ -101,7 +101,7 @@
 			rgba($black, 0.85)
 		);
 
-		@if $float == 'true' {
+		@if $float == 'true' and $bordered == 'true' {
 			border: 2px solid $primary;
 		}
 	}

@@ -19,6 +19,8 @@
 > It's great to combine in your TWMs like: XmonadWM, AwesomeWM, BSPWM, etc...
 >
 > You can check **Reddit:** [r/unixporn](https://www.reddit.com/r/unixporn/) to get some ideas.
+>
+> This if a fork of [@korpsvart](https://github.com/Fausto-Korpsvart)'s [Catppuccin-GTK-Theme](https://github.com/Fausto-Korpsvart/Catppuccin-GTK-Theme)
 
 ![Catppuccin](https://raw.githubusercontent.com/Fausto-Korpsvart/Catppuccin-GTK-Theme/main/extra/screenshots/Catppuccin.png)
 
@@ -132,38 +134,10 @@ The `./install.sh` allows some specific options like:
 -h, --help              Show help
 ```
 
-### CLARIFYING SOME DOUBTS
-
-This is just to clarify doubts about the abbreviations of the Themes, as many found the names confusing.
-| Abbreviation example | Explanation of abbreviations |
-| -------------------- | ------------------------------------------------- |
-| Theme-Name-B-MB      | `Bordered` theme and window `macOS Buttons`       |
-| Theme-Name-B-LB      | `Bordered` theme and window `Legacy Buttons`      |
-| Theme-Name-B-GS      | `Floating` and `Bordered` theme for `Gnome Shell` |
-| Theme-Name-BL-MB     | `Borderless` Theme and window `macOS Buttons`     |
-| Theme-Name-BL-LB     | `Borderless` Theme and window `Legacy Buttons`    |
-| Theme-Name-BL-GS     | `Borderless` Theme decoration for `Gnome Shell`   |
-
-### LOOKING FOR OTHER THEMES WITH NEOVIM COLOUR SCHEMES?
-
-| Neovim Colorschemes for GTK | GitHub      | Pling     |
-| --------------------------- | ----------- | --------- |
-| Catppuccin GTK Theme        | [Source](https://github.com/Fausto-Korpsvart/Catppuccin-GTK-Theme) | [Package](https://www.pling.com/p/1715554/) |
-| Everforest GTK Theme        | [Source](https://github.com/Fausto-Korpsvart/Everforest-GTK-Theme) | [Package](https://www.pling.com/p/1695467/) |
-| Gruvbox GTK Theme           | [Source](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme)    | [Package](https://www.pling.com/p/1681313/) |
-| Kanagawa GTK Theme          | [Source](https://github.com/Fausto-Korpsvart/Kanagawa-GKT-Theme)   | [Package](https://www.pling.com/p/1810560/) |
-| Material GTK Theme          | [Source](https://github.com/Fausto-Korpsvart/Material-GTK-Themes)  | [Package](https://www.pling.com/p/1706139/) |
-| Nightfox GTK Theme          | [Source](https://github.com/Fausto-Korpsvart/Nightfox-GTK-Theme)   | [Package](https://www.pling.com/p/1929101/) |
-| Rose Pine GTK Theme         | [Source](https://github.com/Fausto-Korpsvart/Rose-Pine-GTK-Theme)  | [Package](https://www.pling.com/p/1810530/) |
-| Tokyonight GTK Theme        | [Source](https://github.com/Fausto-Korpsvart/Tokyonight-GTK-Theme) | [Package](https://www.pling.com/p/1681315/) |
-
 #### Acknowledgements to
 
 Thanks to [@telometto](https://github.com/telometto) for the alternative to the application of themes in `Flatpak.`<br>
 Thanks to [@f1yn](https://github.com/f1yn) for the solution to the active and inactive borders in the new version of `Cinnamon.`<br>
 Thanks to [@eeeXun](https://github.com/eeeXun) for the hint to solve the bug in `Mate Desktop` window control buttons.<br>
-Thanks to [@Icy-Thought](https://github.com/Icy-Thought),[@D3vil0p3r](https://github.com/D3vil0p3r) and to those who have packaged these themes for NIX and AUR.
-
-#### SUPPORT
-
-[![PayPal Support](https://img.shields.io/badge/Donate-PayPal-00457C?style=for-the-badge&logo=paypalColor=white)](https://www.paypal.com/donate/?hosted_button_id=LKVTXNA36FTV4)
+Thanks to [@Icy-Thought](https://github.com/Icy-Thought),[@D3vil0p3r](https://github.com/D3vil0p3r) and to those who have packaged these themes for NIX and AUR.<br>
+Thanks to [@korpsvart](https://github.com/Fausto-Korpsvart) for creating this awesome gtk port.
